@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="img/inicio.css" rel="stylesheet" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+<center>
+        
+        <body>
+            <section class="form-register">
+                <h4>maquinaria</h4>
+                <form action="maquinariai.jsp"   method="get">
+                    <label for="id_maquinaria">id_maquinaria
+                        <input type="text" name="id_maquinaria">
+                    </label>
+                    <br>
+                    <br>
+                    <label for="nombre">nombre
+                        <input type="text" name="nombre">
+                    </label>
+                    <br>
+                    <br>
+                    <label for
+                    ="modelo">modelo
+                        <input type="text" name="modelo">
+                    </label>
+                    <br>
+                    <br>
+                    <label for
+                    ="peso">peso
+                        <input type="text" name="peso">
+                    </label>
+                    <br>
+                    <br>
+                    <label for="tamañp">tamaño
+                        <input type="text" name="tamaño">
+                    </label>
+                    
+                    <br>
+                    <br>
+                    
+                    <input type="submit" name="" id="" value="Guardar">
+              </form>
+    
+    </center>
+    <br>
+
+
+   <br>
+ <center>
+       
+        <body>
+            <section class="form-register">
+                <h4>materiales</h4>
+                <form action="materialesi.jsp"   method="get">
+                    <label for="id_mate">id_mate
+                        <input type="text" name="id_mate">
+                    </label>
+                    <br>
+                    <br>
+                    <label for="nombre">nombre
+                        <input type="text" name="nombre">
+                    </label>
+                    <br>
+                    <br>
+                    <label for
+                    ="cantidad">cantidad
+                        <input type="text" name="cantidad">
+                    </label>
+                    <br>
+                    <br>
+                    <label for
+                    ="precio">precio
+                        <input type="text" name="precio">
+                    </label>
+                    <br>
+                    <br>
+                   
+                    <input type="submit" name="" id="" value="Guardar">
+                </form>
+   
+    </center>
+
+    <br>
+
+
+<br>
+<center>
+        
+        <body>
+            <section class="form-register">
+                <h4>provedores</h4>
+                <form action="productosi.jsp"   method="get">
+                    <label for="id_prove">id_prove
+                        <input type="text" name="id_prove">
+                    </label>
+                    <br>
+                    <br>
+                    <label for="nombre">nombre
+                        <input type="text" name="nombre">
+                    </label>
+                    <br>
+                    <br>
+                    <label for
+                    ="telefono">telefono
+                        <input type="text" name="telefono">
+                    </label>
+                    <br>
+                    <br>
+                    <label for
+                    ="direccion">direccion
+                        <input type="text" name="direccion">
+                    </label>
+                    <br>
+                    <br>
+                   
+                    <input type="submit" name="" id="" value="Guardar">
+                </form>
+    
+    </center>
+    <br>
+    <center>
+       
+        <body>
+            <section class="form-register">
+                <h4>suministros</h4>
+                <form action="suministrosi.jsp"   method="get">
+                    <label for="id_sumin">id_sumin
+                        <input type="text" name="id_sumin">
+                    </label>
+                    <br>
+                    <br>
+                    <label for="nombre">nombre
+                        <input type="text" name="nombre">
+                    </label>
+                    <br>
+                    <br>
+                    <label for
+                    ="precio">precio
+                        <input type="text" name="precio">
+                    </label>
+                    <br>
+                    <br>
+                    
+                   
+                    <input type="submit" name="" id="" value="Guardar">
+                </form>
+    
+    </center>
+ <br>
+ <br>
+ <center>
+        <link rel="stylesheet" href="{{url_for('static', filename='inventario.css')}}">
+        <body>
+            <section class="form-register">
+                <h4>Inventario</h4>
+                <form action="inventarioi.jsp"   method="get">
+                    <label for="clave_inv">clave_inv
+                        <input type="text" name="clave_inv">
+                    </label>
+                    <br>
+                    <br>
+                    <label for="id_maquinaria">id_maquinaria
+                        <input type="text" name="id_maquinaria">
+                    </label>
+                    <br>
+                    <br>
+                    <label for="id_prove">id_prove
+                        <input type="text" name="id_prove">
+                    </label>
+                    <br>
+                    <br>
+                    <label for="id_sumin">id_sumin
+                        <input type="text" name="id_sumin">
+                    </label>
+                    <br>
+                    <br>
+                    <label for="id_mate">id_mate
+                        <input type="text" name="id_mate">
+                    </label>
+                    <br>
+                    <br>
+                   
+                    <input type="submit" name="" id="" value="Guardar">
+                </form>
+    </center>
+
+</body>
+</html>
